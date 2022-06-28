@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en-IE">
+
+<head>
+
+    <meta charset = "utf-8">
+    <title> Members Portal </title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+    <nav>
+    <h1 class="navigation">Balloon Keepy Uppy</h1>
+    <ul class="nav-ul">
+        <li class="nav-li">
+            <a href="index1.html" class="nav-a">Home</a>
+            <a href="events.html" class="nav-a">Events</a>
+            <a href="members.html" class="nav-a">Members</a> 
+            <a href="contact.html" class="nav-a">Contact Us</a>
+        
+        
+        </li>
+    </ul>
+    </nav>
+
+    </header>
+
+
+
+    <main>
+    <div class="ayo">
+    
+    <div class="headingcontact">
+        <h1>Welcome to the memebers portal</h1>
+        <h2>Please complete the form below!</h2>
+    </div>
+
+    <div class="form1">
+    <form method="POST" action=" https://webdevcit.com/displayvalues.php ">
+       
+            <h2>Contact Details</h2>
+
+            <h3>Name</h3>
+            <input type="text" placeholder="Name" class="cform" name="Student Name" required>
+
+            <h3>Email</h3>
+            <input type="email" placeholder="Email" class="cform" name="Email Address"  required>
+
+            <h3>Phone Number</h3>
+            <input type="number" placeholder="Phone" class="cform" name="Phone Number"  required>
+
+            <h3>Dept. Of Study</h3>
+            <input type="text" placeholder="Dept. of Study" class="cform" name="Dept of Study"  required>
+
+            <h3>Preferred Method of Contact</h3>
+            <select name="Method of contact" class="cform">
+                <option value="phone">Phone</option>
+                <option value="email">Email</option>
+                <option value="zoom">Zoom</option>
+                <option value="whatsapp">WhatsApp</option></select>
+            
+            <h3>Date Of Birth</h3>
+            <input type="date"  name="DateOfBirth" required>
+
+
+            <h2>Experience Level</h2>
+
+            <h3>Novice</h3>
+            <input name="level" type="radio" value="Novice" class="cform">
+
+            <h3>Competent</h3>
+            <input name="level" type="radio" value="Competent" class="cform">
+
+            <h3>Experienced</h3>
+            <input name="level" type="radio" value="Advanced" class="cform">
+       
+
+            <h2>Would you like to participate in competitoions</h2>
+        
+            <h3>YES!</h3>
+            <input name="competiton participation" type="radio" value="yes" class="cform">
+            <h3>NO!</h3>
+            <input name="competiton participation" type="radio" value="no" class="cform">
+
+            <h2>What Are Your Reasons For Joining</h2>
+            <textarea placeholder="reason for joining" class="cform" name="ReasonForJoining" ></textarea>                   
+
+        <div class="submitbutton">
+
+            <input type="submit" value="SUBMIT" class="join-button">
+            <input type="reset" value="RESET" class="join-button">
+    
+        </div>
+        
+    </form>
+    </div>
+
+ </div>
+    </main>
+
+  <footer>
+    <p>Copyright: Evan Mulcare</p>
+    <p><a href="mailto:evan.allen-mulcare@mycit.ie">evan.allen-mulcare@mycit.ie</a></p>
+  </footer>
+
+</body>
+
+</html>
